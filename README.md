@@ -1,5 +1,9 @@
 # Robotica_lab3
 Laboratorio 3 de robótica 2023-2
+## Integrantes
+- Norma Lorena Martinez Zavala
+- Miguel Angel Sarmiento Cabarcas
+- Jaime Andres Sanchez Peralta
 ### Metodología
 Escribir un código que permita operar una tortuga del paquete turtlesim con el teclado, cumpliendo con las siguientes especificaciones: <br>
 • Movimiento hacia adelante y hacia atrás con las teclas W y S. <br>
