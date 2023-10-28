@@ -18,6 +18,14 @@ La primera parte del código se tomó del ejemplo que incluye la guía y esta en
 ![image](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/35c1fcd9-dee2-4ef1-9de0-6200992266e6)
 
 
+Para mover la tortuga en el simulador de ROS, se implementa una función que lee las teclas presionadas por el usuario y envía comandos de velocidad al topic cmd_vel. Además, se crean dos objetos de tipo ServiceProxy que se conectan con los servicios TeleportAbsolute y TeleportRelative, que permiten cambiar la posición y la orientación de la tortuga respectivamente. La función main se encarga de inicializar el nodo de ROS y llamar a la función que detecta las teclas del teclado. 
+
+![image](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/188902ef-1ee1-45b0-a3b8-5bc2ea3089da)
+
+El siguiente código muestra cómo controlar el movimiento de una tortuga en ROS usando las teclas del teclado. Se define un objeto de tipo ServiceProxy para llamar a los servicios de reset y rotate de la tortuga. Luego se crea un objeto de tipo Publisher para publicar mensajes de tipo Twist en el tópico /turtle1/cmd_vel. Después se inicializa el nodo y se configura la frecuencia de publicación. Dentro del ciclo while con condicional de siempre que ROS esté activo, se crea una función que guarda el valor actual de la tecla presionada como un número binario de 8 bits, se reinician los valores del mensaje a 0 para que las iteraciones anteriores no afecten el funcionamiento, mediante una serie de condicionales se compara cuál tecla fue presionada y en caso de ser 'w' o 's' se cambia la velocidad en x por 1 o -1 respectivamente, en caso de ser 'a' o 'd' se cambia la velocidad angular en z por 1 o -1 respectivamente, pero en caso de ser 'r' o ' ' se ejecuta el ServiceProxy definido al inicio del código con los valores para reiniciar la posición de la tortuga en caso de haber presionado 'r' o con una rotación relativa de pi en caso de haber presionado la barra espaciadora. Finalmente se publica el mensaje y se espera hasta la siguiente iteración.
+
+![image](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/6a989d66-45dd-4ab3-a0df-001b43268e00)
+
 
 
 ### Resultados
