@@ -50,4 +50,6 @@ https://youtu.be/7X1kx9yWbPY
 • Para hacer uso de la función catkin y sus derivados como catkin_make, debe tenerse instalado el paquete, ya que no es una función nativa del entorno de trabajo, ni viene previamente instalada en ROS, sin embargo, puede instalarse a través de este.
 
 • Para abrirse el archivo de python MyTeleopKey, se debe realizar un catkin build previo para actualizar los archivos cargados en la carpeta creada por el catkin_make, de otra manera, el sistema no lo detectará.
+
+•Para la realización de la conexión con MATLAB, en caso de que se requiera, se puede realizar mediante una comunicación SSH, se debe revisar si la máquina virtual, tiene el protocolo de comunicación habilitado.
 ### Conclusiones
