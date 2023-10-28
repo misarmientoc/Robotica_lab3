@@ -13,4 +13,5 @@ El movimiento realizado se puede ver en el siguiente video
 https://youtu.be/7X1kx9yWbPY
 
 ### Análisis
+Para hacer uso de la función catkin y sus derivados como catkin_make, debe tenerse instalado el paquete, ya que no es una función nativa del entorno de trabajo, ni viene previamente instalada en ROS, sin embargo, puede instalarse a través de este.
 ### Conclusiones
