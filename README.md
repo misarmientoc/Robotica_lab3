@@ -13,7 +13,7 @@ Escribir un código que permita operar una tortuga del paquete turtlesim con el 
 
 #Código
 
-La primera parte del código se tomó del ejemplo que incluye la guía y esta en el sitio Python For Fun: Get Key Press in Python (python4fun.blogspot.com)
+La primera parte del código se tomó del ejemplo que incluye la guía y esta en el sitio Python For Fun: Get Key Press in Python http://python4fun.blogspot.com/2008/06/get-key-press-in-python.html
 
 ![image](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/35c1fcd9-dee2-4ef1-9de0-6200992266e6)
 
