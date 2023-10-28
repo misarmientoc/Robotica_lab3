@@ -11,6 +11,15 @@ Escribir un código que permita operar una tortuga del paquete turtlesim con el 
 • Retornar a la posición y orientación centrales con la tecla R. <br>
 • Giro de 180° con la tecla ESPACIO. <br>
 
+
+![image](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/0e10a00c-34f0-4ade-9424-d08c4590e67d)
+
+´´´
+
+rosrun turtlesim turtlesim node
+
+´´´
+
 #Código
 
 La primera parte del código se tomó del ejemplo que incluye la guía y esta en el sitio Python For Fun: Get Key Press in Python http://python4fun.blogspot.com/2008/06/get-key-press-in-python.html
@@ -33,6 +42,9 @@ El siguiente código muestra cómo controlar el movimiento de una tortuga en ROS
 El movimiento realizado se puede ver en el siguiente video
 
 https://youtu.be/7X1kx9yWbPY
+
+![Screenshot 2023-10-27 190341](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/9ce75160-4284-475b-917c-b41a942915d0)
+
 
 ### Análisis
 • Para hacer uso de la función catkin y sus derivados como catkin_make, debe tenerse instalado el paquete, ya que no es una función nativa del entorno de trabajo, ni viene previamente instalada en ROS, sin embargo, puede instalarse a través de este.
