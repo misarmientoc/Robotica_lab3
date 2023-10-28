@@ -7,5 +7,10 @@ Escribir un código que permita operar una tortuga del paquete turtlesim con el 
 • Retornar a la posición y orientación centrales con la tecla R. <br>
 • Giro de 180° con la tecla ESPACIO. <br>
 ### Resultados
+
+El movimiento realizado se puede ver en el siguiente video
+
+https://youtu.be/7X1kx9yWbPY
+
 ### Análisis
 ### Conclusiones
