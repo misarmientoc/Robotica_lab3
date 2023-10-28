@@ -53,3 +53,7 @@ https://youtu.be/7X1kx9yWbPY
 
 •Para la realización de la conexión con MATLAB, en caso de que se requiera, se puede realizar mediante una comunicación SSH, se debe revisar si la máquina virtual, tiene el protocolo de comunicación habilitado.
 ### Conclusiones
+
+Como se mostro en el video, e el código funciona de manera efectiva y permite al usuario interactuar con la tortuga de forma  bastante sencilla. Este tipo de control es útil en aplicaciones de robótica donde se requiere una interacción en tiempo real con un robot en un entorno de simulación.
+
+Si bien tuvimos varias complicaciones con el programa ROS y el manejo de Linux, la practica se implemento con éxito, pues se logro el control de una tortuga en ROS a través del teclado, lo que demuestra la flexibilidad y potencia de las herramientas en ROS para el desarrollo y la experimentación en la materia.  Esta practica fue bastante interesante pues consideramos que la implementación de control de tortuga a través del teclado en ROS es un paso importante en la comprensión de la programación de robots y la simulación en robótica y nos permitira avanzar en futuros laboratorios.
