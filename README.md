@@ -14,11 +14,11 @@ Escribir un código que permita operar una tortuga del paquete turtlesim con el 
 
 ![image](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/0e10a00c-34f0-4ade-9424-d08c4590e67d)
 
-´´´
+```
 
 rosrun turtlesim turtlesim node
 
-´´´
+```
 
 #Código
 
