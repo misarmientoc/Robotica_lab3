@@ -5,6 +5,17 @@ Laboratorio 3 de robótica 2023-2
 - Miguel Angel Sarmiento Cabarcas
 - Jaime Andres Sanchez Peralta
 ### Metodología
+
+
+##Comunicación con matlab:
+
+En primer momento se realiza la comunicación con Matlab con el código propuesto en la guía, donde se logra mover la tortuga cada vez que es ejecutada la tercera sección del código.
+
+![image](https://github.com/misarmientoc/Robotica_lab3/assets/47614570/a7d73d22-b6cf-4ce6-a8d1-b7c807a973ee)
+
+
+
+
 Escribir un código que permita operar una tortuga del paquete turtlesim con el teclado, cumpliendo con las siguientes especificaciones: <br>
 • Movimiento hacia adelante y hacia atrás con las teclas W y S. <br>
 • Giros en sentido horario y antihorario con las teclas D y A. <br>
